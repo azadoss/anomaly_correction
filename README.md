@@ -16,7 +16,7 @@ A web app that can classify how likely specific mutations in DNA are to cause di
 ### Todo
 
 [🚧] This is on-going project to add for internal use for [Anamnesai.com](https://anamnesai.com) a Medical data analysis app that I'm currently building...<br>
-[•] Gigabite size CSV file analysis with context window more than 1M+ rows and 20+ columns EEG analysis for Kazakova A. from [Epilepsy Reasearch Clinic Almaty](klinikasavinova.kz).(Waiting for proper open source model with 10M+ context window to test 880MB cvs with EEG raw data)<br>
+[•] Gigabite size CSV file analysis with context window more than 1M+ rows and 20+ columns EEG analysis for K. Anna from [Epilepsy Reasearch Clinic Almaty](klinikasavinova.kz).(Waiting for proper open source model with 10M+ context window to test 880MB cvs with EEG raw data)<br>
 [•] Collabrate with Atyrau biodoc ... 
 
 ## Evo2 Model
@@ -29,19 +29,6 @@ Check out the paper behind the model.
 ## Setup
 
 Follow these steps to install and set up the project.
-
-### Clone the Repository
-
-```bash
-git clone --recurse-submodules https://github.com/Andreaswt/variant-analysis-evo2.git
-```
-
-### Install Python
-
-Download and install Python if not already installed. Use the link below for guidance on installation:
-[Python Download](https://www.python.org/downloads/)
-
-Create a virtual environment for each folder, except elevenlabs-clone-frontend, with **Python 3.10**.
 
 ### Backend
 
@@ -81,7 +68,7 @@ Install dependencies:
 
 ```bash
 cd evo2-frontend
-npm i
+npm install
 ```
 
 Run:
